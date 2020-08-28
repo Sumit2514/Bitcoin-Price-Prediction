@@ -1,4 +1,4 @@
-Introduction:
+# Introduction:
 
 Bitcoin has been increasingly regarded as an investment asset.Bitcoin’s value 
 reflects investors’ confidence in cryptocurrency.Because of its highly volatile 
@@ -7,7 +7,7 @@ Existing studies have leveraged machine learning for more accurate Bitcoin price
 prediction, few have focused on the feasibility of applying different modelling 
 techniques to samples with different dimensional features.
 
-Motivation:
+# Motivation:
 
 Previous works simply concentrates only on accuracy when applying machine learning
 algorithms without considering the sample dimension.Applying machine learning 
@@ -15,12 +15,12 @@ without considering sample dimension causes overfitting problem.Stock market
 prediction using daily data and accessible high-frequency data has grown over 
 decades.Predicting Bitcoin price in similar manner is lacking
 
-Objective:
+# Objective:
 
 Leveraging appropriate Machine learning algorithms based upon characteristics of
 sample and dimension to predict Bitcoin price
 
-Methodology:
+# Methodology:
 
 Features for prediction models of Bitcoin daily price are : 
 Block Size, Hash Rate, Mining Difficulty, Number of Transactions, Confirmed 
@@ -43,7 +43,7 @@ trading data are poor or unavailable for very small intervals. Therefore, this
 paper consider the original features, which include Open, High, Close, Low, 
 Price and Volume
 
-Implementation:
+# Implementation:
 
 Develops a binary classification algorithm to predict the sign change of Bitcoin price
 
@@ -60,7 +60,7 @@ Support Vector Machine
 Decision Tree
 K-Nearest Neighbors
 
-Result:
+# Result:
 
 Logistic Regression and Linear Discriminant Analysis performs better for daily data with high-dimensional features
 
